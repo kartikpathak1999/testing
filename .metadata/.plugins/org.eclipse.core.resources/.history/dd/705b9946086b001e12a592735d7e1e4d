@@ -1,0 +1,18 @@
+import java.io.File;
+
+public class r{
+    public static void main(String[] args) {
+        // Replace "YourClass" with the name of the class for which you want to get the package path
+    	
+
+  
+
+    	    // link to file Test.class
+    	    File file = new File("C:\\Users\\Sudip Bhandari\\Desktop\\Programiz\\Java Article\\Test.class");
+
+    	    // get file name using getName()
+    	    String fileName = file.getName();
+    	    System.out.println("File Name: " + fileName);
+
+    	  }
+    	}

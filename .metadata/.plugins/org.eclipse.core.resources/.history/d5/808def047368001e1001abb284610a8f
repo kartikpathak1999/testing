@@ -1,0 +1,45 @@
+package DemoProject;
+
+import java.io.IOException;
+
+import org.testng.annotations.Test;
+
+import PageObjectModel.allpage;
+import resources.BaseClass;
+
+public class amazonpage  extends BaseClass{
+	
+	
+	@Test
+	
+	public void Verifyamazonn () throws IOException, InterruptedException {
+		
+		
+
+		driverIntialize();
+		
+	
+		
+		driver.get("https://www.amazon.in/");
+		
+		
+		
+allpage obj= new allpage (driver);
+		
+		obj.all().click();
+		
+		Thread.sleep(3000);
+		
+	//	obj.bestseller().click();
+		
+		Thread.sleep(5000);
+		
+		obj.Electronic().click();
+		
+		
+	}
+	
+	
+	
+
+}

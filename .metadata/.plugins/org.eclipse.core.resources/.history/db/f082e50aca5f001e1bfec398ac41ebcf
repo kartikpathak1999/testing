@@ -1,0 +1,36 @@
+package DemoProject;
+import org.testng.annotations.Test;
+
+public class GroupDemo {
+
+		@Test(groups = {"Group A"})
+		
+		public void TestA()
+		{
+			System.out.println("I belong to group A");
+		}
+		
+		@Test(groups = {"Group A", "Group B"})
+		public void TestB()
+		{
+			System.out.println("I belong to Group A and Group B");
+		}
+		
+		@Test(groups = {"Group B"})
+		public void TestC()
+		{
+			System.out.println("I belong to group B");
+		}
+		
+		
+		
+
+		@Test(groups = {"Group A"})
+		
+		public void Testsum()
+		{
+			System.out.println("sum belong to group A");
+		}
+	}
+
+

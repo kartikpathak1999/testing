@@ -1,0 +1,28 @@
+package javaprogrammes;
+
+public class switchprogramse {
+
+	  public static void main(String[]args)
+	   {
+	     int n=10;
+	     switch(n)
+	     {
+	       case 10:
+	       System.out.println("i am 10");
+	       break;
+
+	       case 20:
+	       System.out.println("i am 20");
+	       break;
+
+	       case 30:
+	       System.out.println("i am 30");
+	       break;
+	       
+	       default:
+	       System.out.println("this code will execute if no one matches");
+	     }
+	     System.out.println("this code belongs to main method");
+	   }
+	}
+
